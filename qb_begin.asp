@@ -6,6 +6,8 @@
 </head>
 
 <body>
+<p>IMPORTANT: This sample code requires the Chilkat ActiveX, version 9.5.0.62 or greater.</p>
+
 <p><a href="http://localhost/qb_startOAuth1.asp"><img src="images/qbConnect.png" /></a>
 
 </body>

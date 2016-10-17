@@ -8,6 +8,11 @@
 <body>
 
 <%
+    ' IMPORTANT: This sample code requires the Chilkat ActiveX, version 9.5.0.62 or greater.
+    ' At this time, Chilkat v9.5.0.62 is a pre-release and can be downloaded here:
+	' 32-bit Download: http://chilkatdownload.com/prerelease/chilkatax-9.5.0-win32.zip
+	' 64-bit Download: http://chilkatdownload.com/prerelease/chilkatax-9.5.0-x64.zip
+	
 	' The incoming params are  oauth_token and oauth_verifier
 	Session("oauth_token") = request.querystring("oauth_token")
 	Session("oauth_verifier") = request.querystring("oauth_verifier")
